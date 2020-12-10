@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="Keywords" content="Hoang Nguyen, HTML, Guestbook" />
+	<meta name="Description" content="Guestbook of Hoang Nguyen's webpage" />
+	<meta name="Author" content="Hoang Nguyen" />
+	<meta name="Robots" content="follow" />
+	<meta http-equiv="refresh" content="60" />
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="../css/mystyle.css"/>
+	<title>Guestbook</title>
+</head>
+
+<body>
+	<!--Header-->
+	<header>
+		<img class="header" src="../images/header.jpg" alt="Hoang Nguyen background photo"/>
+	<br/>
+		
+	<nav>
+		<a href="../html/home.html" style="color:white;">&#8611; Home</a><br/><br/>
+		<a href="../html/resume.html" style="color:white;">&#8611; Resume</a><br/><br/>
+		<a href="../html/interests.html" style="color:white;">&#8611; Interests</a><br/><br/>
+		<a href="../html/reflections.html" style="color:white;">&#8611; Reflections</a><br/><br/>
+			<a href="../html/guestbook.html" style="color:white ">&#8611; Guestbook</a><br/>
+	</nav>
+	<br/><br/>
+	</header>
+	
+	<!--Article-->
+	<h1 style="font-family:Impact;"> Guest Book</h1>
+	<br/>
+	<div class="bodyborder">
+	<h2 style="font-family: Courier New; color:white">Please let me know your name and how do you feel about my Website. Thank you! &#9829;</h2><br/>
+
+	<form
+		  method="post"
+		  action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+		<h4>
+		Enter Your Name:<br/>
+		<input type="text" name="Name" size="45"/>
+		<br/>
+		<br/>
+		Enter Your Email:<br/>
+		<input type="text" name="Email" size="45"/>
+		<br/>
+		<br/>
+		Enter Your Website:<br/>
+		<input type="text" name="Website" size="40" style="font-family: Courier New" value="http://" />
+		<br/>
+		<br/>
+		What country do you live in?<br/>
+		<input type="text" name="Country" size="45"/>
+		<br/>
+		<br/>
+		What web technologies are you interested in? (check all that apply):<br/>
+		<select name="interests" multiple="multiple" size="6">
+		<option>HTML</option>
+		<option>CSS</option>
+		<option>JavaScript</option>
+		<option>AJAX</option>
+		<option>SQL</option>
+		<option>PHP</option>
+		</select>
+		<br/>
+		<br/>
+		How did you find my website?<br/>
+		<select name="Website">
+		<option>Select one</option>
+		<option>I'm a friend</option>
+		<option>A friend directed me to your site</option>
+		<option>School Website</option>
+		<option>A search engine directed me to your side</option>
+		<option>I came across your site by accident</option>
+		<option>Other</option>
+		</select>
+		<br/>
+		<br/>
+		Comments:<br/>
+		<textarea name="Comments" cols="40" rows="5" style="font-family: Courier New">Enter your message here.
+		</textarea>
+		<br/>
+		<br/>
+		<input type="submit"/>
+		<input type="reset"/>
+		</h4>
+	</form>
+	</div>
+	<!--Footer-->
+	<footer>
+		<p class="double" style="color:white;"><a href="../html/home.html" style="color:white;">Home &#9733;</a>
+		<a href="../html/resume.html" style="color:white;">Resume &#9733;</a>
+		<a href="../html/interests.html" style="color:white;">Interests &#9733;</a>
+		<a href="../html/reflections.html" style="color:white;">Reflections &#9733;</a>
+		<a href="../html/guestbook.html" style="color:white ">Guestbook</a>
+		<br/><br/>
+		&#169; 2020 Hoang Nguyen</p>
+	
+	</footer>
+</body>
+</html>
